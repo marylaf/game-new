@@ -67,7 +67,7 @@ code {
 }
 
 .header {
-  max-width: 800px;
+  min-width: 800px;
   display: flex;
   border-bottom: 2px solid #913BFF;
   align-items: center;
@@ -129,7 +129,7 @@ code {
 }
 
 .footer {
-  max-width: 800px;
+  min-width: 800px;
   display: flex;
   align-items: center;
   padding: 4px 38px 4px 38px;
@@ -266,9 +266,8 @@ code {
   }
 
   .main {
-    max-width: 800px;
+    min-width: 800px;
     background: url(./images/back.png), lightgray 50% / cover no-repeat;
-    background-repeat: no-repeat;
     padding: 4px 0;
   }
 
